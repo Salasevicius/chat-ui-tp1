@@ -1,3 +1,4 @@
+/* selector universal*/
 * {
   margin: 0;
   padding: 0;
@@ -41,6 +42,7 @@ aside {
 
 }
 
+/* Lista de contactos*/
 .contact-list {
   display: flex;
   flex-direction: column;
@@ -76,7 +78,7 @@ aside {
 }
 
 
-
+/* Estilo de status. Pregunta para investigar: ¿Los siguientes estilos con ::before deberían tenerse en cuenta al aplicar Javascript utilizando active?*/
 .status {
   color: gray;
   font-weight: 600;
@@ -114,6 +116,7 @@ main.chat>section {
   border-bottom: 1px solid #dee2e6;
 }
 
+/* Chat Header*/
 .chat-header {
   display: flex;
   align-items: flex-start;
@@ -157,6 +160,7 @@ main.chat>section {
   height: 32px;
 }
 
+/* Chat Mensajes*/
 .chat-messages {
   display: flex;
   flex-direction: column;
@@ -198,6 +202,8 @@ main.chat>section {
   font-weight: 600;
 }
 
+/* Chat Footer*/
+
 .chat-footer {
   display: flex;
   justify-content: space-between;
@@ -217,4 +223,5 @@ main.chat>section {
 .chat-footer button {
   width: 38px;
   height: 38px;
+  cursor: pointer;
 }
