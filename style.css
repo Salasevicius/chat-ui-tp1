@@ -59,6 +59,26 @@ aside {
   border-radius: 50%;
 }
 
+.status {
+  color: gray;
+  font-weight: 600;
+}
+
+.status::before {
+  content: "●";
+  color: red;
+  margin-right: 2px;
+  font-size: 20px;
+}
+
+.status.online::before {
+  color: green;
+}
+
+.status.offline::before {
+  color: red;
+}
+
 /* Estilos para el main chat*/
 
 main.chat {
