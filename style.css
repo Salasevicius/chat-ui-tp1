@@ -52,6 +52,12 @@ aside {
   align-items: center;
   gap: 12px;
   border-radius: 8px;
+  cursor: pointer;
+}
+
+.contact:hover {
+  background-color: #e9ecef;
+  ;
 }
 
 .contact img {
