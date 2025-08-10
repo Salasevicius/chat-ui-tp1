@@ -225,3 +225,33 @@ main.chat>section {
   height: 38px;
   cursor: pointer;
 }
+
+
+
+/* Media queries para adaptar diseño y estructura a dispositivos de pantalla pequeña*/
+
+@media (max-width: 768px) {
+  body>section {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+    height: auto;
+  }
+
+  aside {
+    flex-direction: column;
+    border-bottom: 3px solid #5f5f5f;
+    /* separador horizontal */
+    gap: 10px;
+
+  }
+
+  main.chat {
+    height: auto;
+  }
+
+  .chat-header {
+    flex-direction: column;
+    gap: 20px;
+
+  }
+}
