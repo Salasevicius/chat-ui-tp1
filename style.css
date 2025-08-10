@@ -3,3 +3,44 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  height: 100%;
+  background-color: #f1f4f6;
+}
+
+body>section {
+  display: grid;
+  grid-template-columns: 23% 77%;
+  height: 100vh;
+}
+
+aside {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+}
+
+.search {
+  border: 1px solid #ced4da;
+  border-radius: 8px
+}
+
+.contact-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contact {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border-radius: 8px;
+}
+
+.contact img {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
