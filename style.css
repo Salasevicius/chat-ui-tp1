@@ -8,6 +8,7 @@ body {
   height: 100%;
   background-color: #f1f4f6;
   margin: 30px;
+  font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
 }
 
 body>section {
@@ -58,6 +59,17 @@ aside {
   width: 40px;
   border-radius: 50%;
 }
+
+.contact h4 {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.contact p {
+  font-size: 12px;
+}
+
+
 
 .status {
   color: gray;
@@ -114,6 +126,20 @@ main.chat>section {
   border-radius: 50%;
 }
 
+.chat-contact h3 {
+  color: black;
+  margin: 0;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.chat-contact p {
+  color: black;
+  margin: 0;
+  font-size: 16px;
+  font-weight: 400;
+}
+
 .chat-actions {
   display: flex;
   gap: 8px;
@@ -131,10 +157,10 @@ main.chat>section {
   gap: 16px;
   background-color: #ffffff;
   padding: 16px;
+  overflow: hidden
 }
 
 .message {
-
   background-color: #e9ecef;
   align-self: flex-start;
   border-radius: 10px;
@@ -142,6 +168,28 @@ main.chat>section {
   max-width: 60%;
   padding: 10px 15px;
   line-height: 1.4;
+}
+
+.message-send {
+  align-self: flex-end;
+  background-color: #dff4fb;
+  border-radius: 8px;
+  margin: 10px;
+  padding: 10px;
+}
+
+.message-received {
+  align-self: flex-start;
+  background-color: #e9ecef;
+  border-radius: 8px;
+  margin: 10px;
+  padding: 10px;
+}
+
+.timestamp {
+  font-size: 0.7rem;
+  color: #6c757d;
+  font-weight: 600;
 }
 
 .chat-footer {
