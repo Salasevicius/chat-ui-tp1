@@ -7,12 +7,18 @@
 body {
   height: 100%;
   background-color: #f1f4f6;
+  margin: 30px;
 }
 
 body>section {
   display: grid;
   grid-template-columns: 23% 77%;
-  height: 100vh;
+  height: 95vh;
+  max-width: 1200px;
+  margin: auto;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
 }
 
 aside {
