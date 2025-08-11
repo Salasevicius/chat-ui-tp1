@@ -68,8 +68,8 @@ aside {
   border-radius: 50%;
 }
 
-.contact h4 {
-  font-size: 15px;
+.contact h3 {
+  font-size: 16px;
   font-weight: bold;
 }
 
@@ -158,6 +158,7 @@ main.chat>section {
 .chat-actions button {
   width: 32px;
   height: 32px;
+  cursor: pointer;
 }
 
 /* Chat Mensajes*/
@@ -180,6 +181,7 @@ main.chat>section {
   line-height: 1.4;
 }
 
+/* Esto pudiera hacerse con ::before ?*/
 .message-send {
   align-self: flex-end;
   background-color: #dff4fb;
